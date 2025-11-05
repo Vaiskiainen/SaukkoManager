@@ -24,7 +24,7 @@ class DownloadManager(
 
     suspend fun downloadMod(out: File, onProgressUpdate: (Float?) -> Unit) =
         download(
-            "https://github.com/revenge-mod/revenge-xposed/releases/latest/download/app-release.apk",
+            "https://github.com/Vaiskiainen/SaukkoXposed/releases/latest/download/app-release.apk",
             out,
             onProgressUpdate
         )
