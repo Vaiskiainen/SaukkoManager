@@ -1,80 +1,53 @@
-<p align="center">
-  <picture>
-    <source
-      width="512px"
-      media="(prefers-color-scheme: dark)"
-      srcset="assets/wordmark/wordmark+slogan-dark.svg"
-    >
-    <img
-      width="512px"
-      src="assets/wordmark/wordmark+slogan-light.svg"
-    >
-  </picture>
-  <br>
-  <a href="https://revenge-mod.github.io/">
-       <picture>
-           <source height="32px" media="(prefers-color-scheme: dark)" srcset="assets/logo/logo-dark.svg" />
-           <img height="32px" src="assets/logo/logo-light.svg" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="https://discord.com/invite/ddcQf3s2Uq">
-       <picture>
-           <source height="32px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
-           <img height="32px" src="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/revenge-mod">
-       <picture>
-           <source height="32px" media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/dMMmCrW/Git-Hub-Mark.png" />
-           <img height="32px" src="https://i.ibb.co/9wV3HGF/Git-Hub-Mark-Light.png" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div align="center">
 
-   </a>
-</p>
+  <img src="Images/kettu_logo.png" alt="Kettu logo" width="200px" style="border-radius: 50%" />
+  
+  # 🦦 Saukko Manager
 
-# 💊 Revenge Manager
+  Easily install Saukko on Android
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/revenge-mod/revenge-manager/release.yml)
-![Open Software License 3](https://img.shields.io/badge/License-OSL%20v3-yellow.svg)
+  [![Latest release](https://img.shields.io/github/v/release/Vaiskiainen/SaukkoManager?color=3AB8BA&display_name=release&label=Latest&style=for-the-badge)](https://github.com/C0C0B01/KettuManager/releases/latest)
+  
+  ---
 
-Application to use Revenge on Android.
 
-## ❓ About
+  
+</div>
 
-Revenge Manager is an application that installs and updates [Revenge](https://github.com/revenge-mod/revenge-bundle),
-a modification for Discord.
+> [!CAUTION]
+> Using Saukko might get you banned from discord.
 
-## 💪 Features
+## ⚠️ Current Staus:
+*Not Working*
+  
+#### 👨‍💻 Prerequisites
+  - [Git](https://git-scm.com/downloads)
+  - [JDK 17](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
+  - [Android SDK](https://developer.android.com/studio)
 
-Some of the features Revenge Manager provides are:
+#### 📖 Instructions
 
-- 📲 **Install**: Download Discord and install Revenge on it
-- 🔁 **Update**: Update Revenge to the latest version
-- 🔔 **Notifications**: Be notified when a new version of Revenge is available
-- 📃 **Changelog**: See the changelog of Revenge
+1. Clone the repo
+    - `git clone https://github.com/C0C0B01/KettuManager.git && cd KettuManager`
+2. Build the project
+    - Linux: `chmod +x ./gradlew && gradlew assembleDebug`
+    - Windows: `./gradlew assembleDebug`
+3. Install on device
+    - [Enable USB debugging](https://developer.android.com/studio/debug/dev-options) and plug in your phone
+    - Run `adb install app/build/outputs/apk/debug/app-debug.apk`
 
-## 🔽 Download
+## 💻 Contributing
 
-You can download the most recent version of Revenge Manager from
-[here](https://github.com/revenge-mod/revenge-manager/releases/latest).  
-Learn how to use Revenge Manager by following the [documentation](/docs).
+This is an open-source project, you can do so without any programming.
 
-## 📚 Everything else
+Here are a few things you can do:
 
-### 📙 Contributing
+- [Test and report issues](https://github.com/C0C0B01/KettuManager/issues/new/choose)
+    
+📒 License
+---
+SaukkoManager is licensed under the Open Software License version 3.0
 
-Thank you for considering contributing to Revenge Manager.
-You can find the contribution guidelines [here](CONTRIBUTING.md).
+[![License: OSL v3](https://img.shields.io/badge/License-OSL%20v3-blue.svg?style=for-the-badge)](https://github.com/C0C0B01/KettuManager/blob/main/LICENSE)
 
-### 🛠️ Building
-
-To build a Revenge Manager, you can follow the [documentation](/docs).
-
-### 📃 Documentation
-
-You can find the documentation of Revenge Manager [here](/docs).
-
-## 📜 Licence
-
-Revenge Manager is licensed under the OSLv3 license. Please see the [license file](LICENSE) for more information.
+Original project: [KettuManager](https://codeberg.org/cocobo1/KettuManager)
